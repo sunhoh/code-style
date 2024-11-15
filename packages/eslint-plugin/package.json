@@ -1,20 +1,17 @@
 {
-  "name": "@addkream/eslint-plugin",
+  "name": "@adCream/eslint-plugin",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --config ./jest.config.js"
   },
-  "author": "@AdCreamDev/frontend",
+  "author": "@adCreamDev/frontend",
   "peerDependencies": {
     "eslint": "^8",
     "eslint-plugin-boundaries": "^4.2.2"
   },
-  "devDependencies": {
-    "@babel/eslint-parser": "^7.24.8",
-    "@typescript-eslint/parser": "^7.17.0"
-  },
+  "devDependencies": {},
   "keywords": [
     "eslint",
     "plugin",
