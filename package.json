@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "turbo run test"
   },
   "keywords": [],
   "author": "@AdCreamDev/frontend",
   "license": "ISC",
   "dependencies": {
-    "jest": "^29.7.0"
-  }
+    "jest": "^29.7.0",
+    "turbo": "^2.3.0"
+  },
+  "devDependencies":{
+    "@adCream/eslint-plugin": "workspace:*"
+  },
+  "packageManager": "pnpm@9.1.3"
 }
