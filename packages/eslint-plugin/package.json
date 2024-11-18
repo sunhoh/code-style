@@ -8,10 +8,13 @@
   },
   "author": "@adCreamDev/frontend",
   "peerDependencies": {
-    "eslint": "^8",
+    "eslint": "^9.15.0",
     "eslint-plugin-boundaries": "^4.2.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.25.9",
+    "@typescript-eslint/parser": "^8.14.0"
+  },
   "keywords": [
     "eslint",
     "plugin",
