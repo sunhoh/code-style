@@ -9,6 +9,7 @@
 - FSD Architecture: 계층적 구조를 기반으로 하는 규칙 설계 (의존성: eslint-plugin-boundaries).
 - 이미지 및 SVG 최적화: 코드에서 사용하는 이미지 및 SVG 관리 규칙.
 - 스타일 가이드 연동: Stylelint 규칙을 통합하여 CSS/SCSS 코드 품질 유지.
+- import 정렬: FSD Architecture 계층 순으로 정렬.
 
 ## Installation
 
