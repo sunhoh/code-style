@@ -1,5 +1,6 @@
 const boundariesRules = require('eslint-plugin-boundaries').rules;
 const { getFileType } = require('../utils/pattern');
+const { BOUNDARIES_ELEMENTS_SETTINGS } = require('../core/config');
 
 module.exports = {
   rules: {
@@ -85,16 +86,7 @@ module.exports = {
           },
         ],
       },
-      settings: {
-        'boundaries/elements': [
-          { type: 'app', pattern: 'src/app/**' },
-          { type: 'pages', pattern: 'src/pages/**' },
-          { type: 'widgets', pattern: 'src/widgets/**' },
-          { type: 'features', pattern: 'src/features/**' },
-          { type: 'entities', pattern: 'src/entities/**' },
-          { type: 'shared', pattern: 'src/shared/**' },
-        ],
-      },
+      settings: BOUNDARIES_ELEMENTS_SETTINGS,
     },
   },
 };

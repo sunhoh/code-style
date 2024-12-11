@@ -1,14 +1,14 @@
 {
   "name": "@adCream/eslint-plugin",
   "version": "1.0.0",
-  "description": "",
+  "description": "eslint plugin for adCream",
   "main": "index.js",
   "scripts": {
     "test": "jest --config ./jest.config.js"
   },
   "author": "@adCreamDev/frontend",
   "peerDependencies": {
-    "eslint": "^9.15.0",
+    "eslint": "^8",
     "eslint-plugin-boundaries": "^4.2.2"
   },
   "devDependencies": {
@@ -16,9 +16,11 @@
     "@typescript-eslint/parser": "^8.14.0"
   },
   "keywords": [
+    "adCream",
     "eslint",
     "plugin",
     "eslint-plugin"
   ],
-  "license": "ISC"
+  "license": "MIT",
+  "homepage": "https://github.com/adcream100/code-style"
 }

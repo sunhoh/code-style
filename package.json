@@ -8,7 +8,6 @@
   },
   "keywords": [],
   "author": "@adCreamDev/frontend",
-  "license": "ISC",
   "dependencies": {
     "jest": "^29.7.0",
     "turbo": "^2.3.0"
